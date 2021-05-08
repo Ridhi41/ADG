@@ -1,0 +1,102 @@
+NUMPY 
+
+Q1 import numpy as np 
+a = np.array([(1,2,3),(4,5,6)]) 
+print(a.ndim) 
+
+Output – 2 
+
+
+Q2 import numpy as np 
+a = np.array([(1,2,3)]) 
+print(a.itemsize) 
+
+Output – 4 
+
+
+Q3 import numpy as np 
+a = np.array([(1,2,3),(4,5,6)]) 
+print(a.ndim) 
+
+Output – 2  
+
+
+Q4 import numpy as np 
+a = np.array([(8,9,10),(11,12,13)]) 
+print(a) 
+a=a.reshape(3,2) 
+print(a) 
+
+Output – [[ 8 9 10] [11 12 13]] [[ 8 9] [10 11] [12 13]] 
+
+
+PANDAS 
+
+
+Q1 import pandas as pd 
+df = pd.DataFrame() 
+print('The DataFrame is :\n', df) 
+shape = df.shape  
+print('DataFrame Shape :', shape) 
+print('Number of rows :', shape[0]) 
+print('Number of columns :', shape[1]) 
+
+Output - The DataFrame is : Empty DataFrame 
+Columns: [] 
+Index: [] 
+DataFrame Shape : (0, 0) 
+Number of rows : 0 
+Number of columns : 0 
+
+
+Q2 import pandas as pd df = pd.DataFrame() 
+isempty = df.empty 
+print('Is the DataFrame empty :', isempty) 
+
+Output- Is the DataFrame empty : True 
+
+
+MATPLOTLIB
+
+Q1 from matplotlib import pyplot as plt
+ plt.plot([1,2,3],[4,5,1]) 
+ plt.show()
+
+Output - 
+
+
+SEABORN 
+
+Q1 import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set_theme(style="darkgrid")
+
+x = ['day 1', 'day 2', 'day 3', 'day 100']
+y = [1, 5, 4, 5]
+
+sns.lineplot(x, y)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
